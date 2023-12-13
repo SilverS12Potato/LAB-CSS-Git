@@ -45,3 +45,42 @@
     background-color:rgb(130, 0, 252);
     color:rgb(255, 213, 0);
 }
+
+/*Second box*/
+#profile{
+    color: rgb(255, 255, 255);
+    height: 70vh;
+    background-color:rgba(0, 0, 0, 0.856);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 33px;
+    font-weight: 600;
+    gap: 3rem;
+}
+
+.img-profile img{
+    width:500px;
+    height: 530px;
+}
+
+.text-display {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.text-display .btn-more {
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 2rem;
+}
+
+.text-display a:hover{
+    background-color:rgba(0, 0, 0, 0.832) ;
+    color: rgb(255, 217, 0);
+    border-color: blueviolet;
+    border-style: solid;
+}
